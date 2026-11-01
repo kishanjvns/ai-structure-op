@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: ai-structured-output-service
+  ai:
+    google:
+      genai:
+        api-key: ${GEMINI_API_KEY}
+        chat:
+          model: gemini-3.8-flash
+          temperature: 0.2
+
+#    ollama:
+#      base-url: http://localhost:11434
+#      chat:
+#        model: llama3.2:3b
+#        options:
+#          temperature: 0.2
